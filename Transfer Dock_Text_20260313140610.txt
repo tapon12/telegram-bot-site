@@ -1,0 +1,75 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Telegram Earning Bot</title>
+
+<style>
+
+body{
+background:#0f172a;
+font-family:Arial;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.box{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+max-width:400px;
+margin:auto;
+}
+
+button{
+background:#22c55e;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:8px;
+color:white;
+cursor:pointer;
+margin-top:20px;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Telegram Earning Bot</h2>
+
+<p>Click below to continue</p>
+
+<button onclick="start()">Continue</button>
+
+</div>
+
+<script src='//libtl.com/sdk.js' data-zone='10703766' data-sdk='show_10703766'></script>
+
+<script>
+
+function start(){
+
+show_10703766().then(() => {
+
+window.location.href="https://t.me/YOUR_BOT_USERNAME"
+
+})
+
+}
+
+</script>
+
+</body>
+</html>
